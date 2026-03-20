@@ -468,6 +468,36 @@ img {
   color: #60a5fa;
 }
 
+/* ========== ELEMENTOR SUPPORT ========== */
+.elementor-full-width {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-full-width .elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1200px;
+}
+
+.elementor-full-width .elementor-section.elementor-section-full_width {
+  max-width: 100%;
+}
+
+body.elementor-canvas {
+  background: #fff;
+}
+
+/* Remove default margins when Elementor is active */
+.elementor-page .site-main {
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-page .site-main .elementor {
+  width: 100%;
+}
+
 /* ========== RESPONSIVE ========== */
 @media (max-width: 1024px) {
   .main-nav, .top-bar, .hero-section, .tabs-section,

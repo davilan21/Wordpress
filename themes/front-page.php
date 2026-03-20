@@ -1,4 +1,17 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Front Page Template - Supports Elementor
+ * If the page is built with Elementor, it renders the Elementor content.
+ * Otherwise, it falls back to the hardcoded First Aid Kit design.
+ */
+get_header(); ?>
+
+<main class="site-main">
+<?php if (bdi_is_elementor_page()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+        <?php the_content(); ?>
+    <?php endwhile; ?>
+<?php else : ?>
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -147,5 +160,8 @@
         </div>
     </div>
 </section>
+
+<?php endif; ?>
+</main>
 
 <?php get_footer(); ?>
