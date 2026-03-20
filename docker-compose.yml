@@ -31,6 +31,8 @@ services:
       - wordpress_data:/var/www/html
       - ./themes:/var/www/html/wp-content/themes/custom-theme
       - ./plugins:/var/www/html/wp-content/plugins
+      - ./mu-plugins:/var/www/html/wp-content/mu-plugins
+      - ./templates:/templates
     depends_on:
       db:
         condition: service_healthy
