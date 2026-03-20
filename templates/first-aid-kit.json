@@ -1,139 +1,32 @@
 [
   {
-    "id": "a1b2c3d",
-    "elType": "section",
-    "settings": {
-      "background_background": "gradient",
-      "background_color": "#0b1a3e",
-      "background_color_b": "#0891b2",
-      "background_gradient_angle": {
-        "unit": "deg",
-        "size": 135
-      },
-      "padding": {
-        "unit": "px",
-        "top": "80",
-        "right": "0",
-        "bottom": "100",
-        "left": "0",
-        "isLinked": false
-      },
-      "layout": "full_width",
-      "overflow": "hidden",
-      "position": "relative"
-    },
-    "elements": [
-      {
-        "id": "a1b2c3e",
-        "elType": "column",
-        "settings": {
-          "_column_size": 100,
-          "align": "center"
-        },
-        "elements": [
-          {
-            "id": "a1b2c3f",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"width:80px;height:80px;margin:0 auto 20px;background:linear-gradient(135deg,#3b82f6,#06b6d4);border-radius:20px;display:flex;align-items:center;justify-content:center;font-size:40px;\">&#128188;</div>"
-            }
-          },
-          {
-            "id": "a1b2c40",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "First<br>Aid<span style=\"color:#67e8f9\">Kit</span>",
-              "align": "center",
-              "title_color": "#ffffff",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {
-                "unit": "px",
-                "size": 64
-              },
-              "typography_font_weight": "800",
-              "typography_line_height": {
-                "unit": "em",
-                "size": 1.1
-              },
-              "text_shadow_text_shadow": {
-                "horizontal": 0,
-                "vertical": 4,
-                "blur": 20,
-                "color": "rgba(0,0,0,0.3)"
-              }
-            }
-          },
-          {
-            "id": "a1b2c41",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"text-align:center;\"><div style=\"display:inline-block;background:#0b1a3e;color:#fff;padding:10px 28px;border-radius:8px;font-size:16px;font-weight:500;font-family:'Inter',sans-serif;\">The essential guide to your<br><strong>International Health Insurance</strong></div></div>"
-            }
-          },
-          {
-            "id": "a1b2c42",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<svg style=\"position:absolute;bottom:0;left:0;width:100%;height:80px;\" viewBox=\"0 0 1440 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 40C240 80 480 0 720 40C960 80 1200 0 1440 40V80H0V40Z\" fill=\"#ffffff\"/></svg>"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "b2c3d4e",
+    "id": "aa10001",
     "elType": "section",
     "settings": {
       "background_background": "classic",
-      "background_color": "#ffffff",
+      "background_color": "#0a1631",
       "padding": {
         "unit": "px",
-        "top": "60",
-        "right": "60",
-        "bottom": "40",
-        "left": "60",
+        "top": "8",
+        "right": "40",
+        "bottom": "8",
+        "left": "40",
         "isLinked": false
       },
       "layout": "full_width"
     },
     "elements": [
       {
-        "id": "b2c3d4f",
+        "id": "aa10002",
         "elType": "column",
-        "settings": {
-          "_column_size": 100,
-          "align": "center"
-        },
+        "settings": { "_column_size": 100 },
         "elements": [
           {
-            "id": "b2c3d50",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "Emergencies<br><span style=\"color:#0891b2\">and travel</span>",
-              "align": "center",
-              "title_color": "#1a1a2e",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {
-                "unit": "px",
-                "size": 42
-              },
-              "typography_font_weight": "700"
-            }
-          },
-          {
-            "id": "b2c3d51",
+            "id": "aa10003",
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "<div style=\"display:flex;justify-content:center;gap:40px;margin-top:32px;border-bottom:2px solid #e5e7eb;padding-bottom:0;font-family:'Inter',sans-serif;\"><a href=\"#\" style=\"font-size:14px;color:#64748b;padding-bottom:12px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;transition:all 0.3s;\">International Emergency</a><a href=\"#\" style=\"font-size:14px;color:#64748b;padding-bottom:12px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;transition:all 0.3s;\">Accident Coverage</a><a href=\"#\" style=\"font-size:14px;color:#64748b;padding-bottom:12px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;transition:all 0.3s;\">Required Documents</a><a href=\"#\" style=\"font-size:14px;color:#1e3a8a;padding-bottom:12px;border-bottom:3px solid #1e3a8a;font-weight:600;text-decoration:none;\">Repatriation</a></div>"
+              "html": "<div style=\"display:flex;justify-content:flex-end;align-items:center;gap:18px;font-family:'Inter',sans-serif;\"><span style=\"color:#fff;font-size:12px;font-weight:500;\">US</span><span style=\"font-size:14px;\">&#127482;&#127480;</span><span style=\"color:#94a3b8;font-size:12px;\">EN <span style=\"font-size:10px;\">&#9660;</span></span><a href=\"#\" style=\"background:#2563eb;color:#fff;padding:6px 20px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:6px;\">Login portal <span style=\"font-size:10px;\">&#9660;</span></a></div>"
             }
           }
         ]
@@ -141,19 +34,253 @@
     ]
   },
   {
-    "id": "c3d4e5f",
+    "id": "ab10001",
+    "elType": "section",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "12",
+        "right": "40",
+        "bottom": "12",
+        "left": "40",
+        "isLinked": false
+      },
+      "layout": "full_width",
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#e5e7eb"
+    },
+    "elements": [
+      {
+        "id": "ab10002",
+        "elType": "column",
+        "settings": { "_column_size": 30 },
+        "elements": [
+          {
+            "id": "ab10003",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"display:flex;align-items:center;gap:8px;font-family:'Inter',sans-serif;\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 40 40\" fill=\"none\"><rect width=\"40\" height=\"40\" rx=\"6\" fill=\"#1e3a8a\"/><rect x=\"8\" y=\"12\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"22\" y=\"12\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"8\" y=\"22\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"22\" y=\"22\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/></svg><span style=\"font-size:14px;font-weight:700;color:#0f172a;line-height:1.2;\"><em style=\"font-style:italic;\">Best Doctors</em><br><small style=\"font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#64748b;\">INSURANCE</small></span></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ab10004",
+        "elType": "column",
+        "settings": { "_column_size": 70 },
+        "elements": [
+          {
+            "id": "ab10005",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<nav style=\"display:flex;justify-content:flex-end;align-items:center;gap:28px;font-family:'Inter',sans-serif;\"><a href=\"#\" style=\"color:#0f172a;font-size:13px;font-weight:500;text-decoration:none;\">Home</a><a href=\"#\" style=\"color:#0f172a;font-size:13px;font-weight:500;text-decoration:none;\">Our plans <span style=\"font-size:10px;\">&#9660;</span></a><a href=\"#\" style=\"color:#0f172a;font-size:13px;font-weight:500;text-decoration:none;\">About us <span style=\"font-size:10px;\">&#9660;</span></a><a href=\"#\" style=\"color:#0f172a;font-size:13px;font-weight:500;text-decoration:none;\">Blog</a><a href=\"#\" style=\"color:#0f172a;font-size:13px;font-weight:500;text-decoration:none;\">Support <span style=\"font-size:10px;\">&#9660;</span></a><svg width=\"18\" height=\"18\" fill=\"#0f172a\" viewBox=\"0 0 24 24\"><path d=\"M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"/></svg></nav>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ac10001",
+    "elType": "section",
+    "settings": {
+      "background_background": "gradient",
+      "background_color": "#0a1631",
+      "background_color_b": "#1e3a8a",
+      "background_gradient_type": "linear",
+      "background_gradient_angle": {
+        "unit": "deg",
+        "size": 160
+      },
+      "padding": {
+        "unit": "px",
+        "top": "50",
+        "right": "40",
+        "bottom": "120",
+        "left": "40",
+        "isLinked": false
+      },
+      "layout": "full_width",
+      "overflow": "hidden"
+    },
+    "elements": [
+      {
+        "id": "ac10002",
+        "elType": "column",
+        "settings": { "_column_size": 100, "align": "center" },
+        "elements": [
+          {
+            "id": "ac10003",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');.bdi-hero-wrap{position:relative;text-align:center;font-family:'Inter',sans-serif;padding:20px 0 40px;}.bdi-dots{position:absolute;top:10px;left:40px;display:grid;grid-template-columns:repeat(4,12px);gap:10px;}.bdi-dots span{width:10px;height:10px;border-radius:50%;display:block;}.bdi-dots .d1{background:#3b82f6;}.bdi-dots .d2{background:#1e40af;opacity:0.5;}.bdi-dots .d3{background:#60a5fa;opacity:0.3;}.bdi-icon{width:90px;height:90px;margin:0 auto 16px;background:linear-gradient(145deg,#2563eb,#06b6d4);border-radius:22px;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(37,99,235,0.4);}.bdi-icon svg{width:48px;height:48px;}.bdi-title{font-size:72px;font-weight:900;color:#fff;line-height:0.95;margin:0 0 24px;letter-spacing:-2px;}.bdi-title .kit{color:#38bdf8;}.bdi-subtitle{display:inline-block;background:rgba(10,22,49,0.85);color:#fff;padding:12px 32px;border-radius:10px;font-size:15px;line-height:1.6;}.bdi-subtitle strong{font-weight:700;}.bdi-wave{position:absolute;bottom:-2px;left:0;width:100%;}.bdi-play{position:absolute;bottom:40px;right:60px;width:48px;height:48px;background:linear-gradient(135deg,#2563eb,#1d4ed8);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,99,235,0.5);cursor:pointer;}</style><div class=\"bdi-hero-wrap\"><div class=\"bdi-dots\"><span class=\"d1\"></span><span class=\"d2\"></span><span class=\"d3\"></span><span class=\"d2\"></span><span class=\"d2\"></span><span class=\"d1\"></span><span class=\"d2\"></span><span class=\"d3\"></span><span class=\"d3\"></span><span class=\"d2\"></span><span class=\"d1\"></span><span class=\"d2\"></span><span class=\"d2\"></span><span class=\"d3\"></span><span class=\"d2\"></span><span class=\"d1\"></span></div><div class=\"bdi-icon\"><svg viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"10\" y=\"18\" width=\"28\" height=\"20\" rx=\"3\" fill=\"#fff\"/><rect x=\"18\" y=\"12\" width=\"12\" height=\"8\" rx=\"2\" fill=\"#e0f2fe\" stroke=\"#fff\" stroke-width=\"2\"/><rect x=\"21\" y=\"24\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2563eb\"/><rect x=\"18\" y=\"27\" width=\"12\" height=\"4\" rx=\"1\" fill=\"#2563eb\"/></svg></div><h1 class=\"bdi-title\">First<br>Aid<span class=\"kit\">Kit</span></h1><div class=\"bdi-subtitle\">The essential guide to your<br><strong>International Health Insurance</strong></div><div class=\"bdi-play\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"#fff\"><path d=\"M8 5v14l11-7z\"/></svg></div><svg class=\"bdi-wave\" viewBox=\"0 0 1440 100\" preserveAspectRatio=\"none\" style=\"height:80px;\"><path d=\"M0,60 C180,100 360,20 540,50 C720,80 900,20 1080,50 C1200,70 1320,40 1440,60 L1440,100 L0,100 Z\" fill=\"#ffffff\"/></svg></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad10001",
+    "elType": "section",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "50",
+        "right": "40",
+        "bottom": "10",
+        "left": "40",
+        "isLinked": false
+      },
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "ad10002",
+        "elType": "column",
+        "settings": { "_column_size": 100, "align": "center" },
+        "elements": [
+          {
+            "id": "ad10003",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"text-align:center;font-family:'Inter',sans-serif;\"><h2 style=\"font-size:38px;font-weight:800;color:#0f172a;margin:0 0 4px;line-height:1.15;\">Emergencies</h2><h2 style=\"font-size:38px;font-weight:800;color:#0891b2;margin:0 0 36px;line-height:1.15;\">and travel</h2><div style=\"display:flex;justify-content:center;gap:32px;border-bottom:2px solid #e5e7eb;padding-bottom:0;\"><a href=\"#\" style=\"font-size:13px;color:#94a3b8;padding-bottom:14px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;\">International Emergency</a><a href=\"#\" style=\"font-size:13px;color:#94a3b8;padding-bottom:14px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;\">Accident Coverage</a><a href=\"#\" style=\"font-size:13px;color:#94a3b8;padding-bottom:14px;border-bottom:3px solid transparent;font-weight:500;text-decoration:none;\">Required Documents</a><a href=\"#\" style=\"font-size:13px;color:#1e3a8a;padding-bottom:14px;border-bottom:3px solid #1e3a8a;font-weight:700;text-decoration:none;\">Repatriation</a></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae10001",
     "elType": "section",
     "settings": {
       "background_background": "gradient",
       "background_color": "#dbeafe",
       "background_color_b": "#cffafe",
-      "background_gradient_angle": {
-        "unit": "deg",
-        "size": 135
-      },
+      "background_gradient_angle": { "unit": "deg", "size": 135 },
       "padding": {
         "unit": "px",
-        "top": "40",
+        "top": "32",
+        "right": "60",
+        "bottom": "32",
+        "left": "60",
+        "isLinked": false
+      },
+      "margin": {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "ae10002",
+        "elType": "column",
+        "settings": { "_column_size": 100 },
+        "elements": [
+          {
+            "id": "ae10003",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"display:flex;align-items:center;gap:24px;max-width:700px;margin:0 auto;font-family:'Inter',sans-serif;\"><div style=\"width:72px;height:72px;min-width:72px;background:linear-gradient(145deg,#93c5fd,#67e8f9);border-radius:18px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(59,130,246,0.2);\"><svg width=\"36\" height=\"36\" viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"12\" y=\"6\" width=\"24\" height=\"36\" rx=\"3\" fill=\"#1e3a8a\" opacity=\"0.9\"/><rect x=\"15\" y=\"10\" width=\"18\" height=\"3\" rx=\"1\" fill=\"#93c5fd\"/><rect x=\"15\" y=\"16\" width=\"18\" height=\"3\" rx=\"1\" fill=\"#93c5fd\"/><rect x=\"15\" y=\"22\" width=\"18\" height=\"3\" rx=\"1\" fill=\"#93c5fd\"/><rect x=\"15\" y=\"28\" width=\"12\" height=\"3\" rx=\"1\" fill=\"#93c5fd\"/><rect x=\"18\" y=\"2\" width=\"12\" height=\"6\" rx=\"2\" fill=\"#2563eb\"/></svg></div><div><span style=\"font-size:18px;font-weight:700;color:#0f172a;line-height:1.4;\">What does the policy cover</span><br><span style=\"font-size:18px;font-weight:400;color:#334155;line-height:1.4;\">for repatriation of mortal remains?</span></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "af10001",
+    "elType": "section",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "padding": {
+        "unit": "px",
+        "top": "50",
+        "right": "60",
+        "bottom": "60",
+        "left": "60",
+        "isLinked": false
+      },
+      "layout": "boxed",
+      "content_width": { "unit": "px", "size": 1100 }
+    },
+    "elements": [
+      {
+        "id": "af10002",
+        "elType": "column",
+        "settings": { "_column_size": 45, "align": "center", "content_position": "center" },
+        "elements": [
+          {
+            "id": "af10003",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"max-width:340px;margin:0 auto;\"><svg viewBox=\"0 0 340 400\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"petal1\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#3b82f6\"/><stop offset=\"100%\" stop-color=\"#1d4ed8\"/></linearGradient><linearGradient id=\"petal2\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#60a5fa\"/><stop offset=\"100%\" stop-color=\"#2563eb\"/></linearGradient><linearGradient id=\"petal3\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#93c5fd\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/></linearGradient></defs><path d=\"M130 400 L130 260\" stroke=\"#1e3a5f\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M170 400 L170 220\" stroke=\"#1e3a5f\" stroke-width=\"7\" stroke-linecap=\"round\"/><path d=\"M210 400 L210 250\" stroke=\"#1e3a5f\" stroke-width=\"6\" stroke-linecap=\"round\"/><ellipse cx=\"115\" cy=\"340\" rx=\"30\" ry=\"10\" transform=\"rotate(-25 115 340)\" fill=\"#16a34a\" opacity=\"0.7\"/><ellipse cx=\"145\" cy=\"360\" rx=\"28\" ry=\"9\" transform=\"rotate(20 145 360)\" fill=\"#22c55e\" opacity=\"0.6\"/><ellipse cx=\"195\" cy=\"350\" rx=\"32\" ry=\"10\" transform=\"rotate(-15 195 350)\" fill=\"#16a34a\" opacity=\"0.65\"/><ellipse cx=\"225\" cy=\"330\" rx=\"26\" ry=\"9\" transform=\"rotate(25 225 330)\" fill=\"#22c55e\" opacity=\"0.7\"/><g transform=\"translate(170,195)\"><ellipse cx=\"0\" cy=\"-40\" rx=\"22\" ry=\"40\" fill=\"url(#petal1)\" opacity=\"0.95\"/><ellipse cx=\"38\" cy=\"-12\" rx=\"22\" ry=\"40\" fill=\"url(#petal2)\" opacity=\"0.9\" transform=\"rotate(72 0 0)\"/><ellipse cx=\"23\" cy=\"32\" rx=\"22\" ry=\"40\" fill=\"url(#petal3)\" opacity=\"0.85\" transform=\"rotate(144 0 0)\"/><ellipse cx=\"-23\" cy=\"32\" rx=\"22\" ry=\"40\" fill=\"url(#petal1)\" opacity=\"0.9\" transform=\"rotate(216 0 0)\"/><ellipse cx=\"-38\" cy=\"-12\" rx=\"22\" ry=\"40\" fill=\"url(#petal2)\" opacity=\"0.95\" transform=\"rotate(288 0 0)\"/><circle cx=\"0\" cy=\"0\" r=\"14\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"#fbbf24\"/></g><g transform=\"translate(110,240)\"><ellipse cx=\"0\" cy=\"-30\" rx=\"16\" ry=\"30\" fill=\"url(#petal2)\" opacity=\"0.9\"/><ellipse cx=\"28\" cy=\"-9\" rx=\"16\" ry=\"30\" fill=\"url(#petal1)\" opacity=\"0.85\" transform=\"rotate(72 0 0)\"/><ellipse cx=\"17\" cy=\"24\" rx=\"16\" ry=\"30\" fill=\"url(#petal3)\" opacity=\"0.8\" transform=\"rotate(144 0 0)\"/><ellipse cx=\"-17\" cy=\"24\" rx=\"16\" ry=\"30\" fill=\"url(#petal2)\" opacity=\"0.85\" transform=\"rotate(216 0 0)\"/><ellipse cx=\"-28\" cy=\"-9\" rx=\"16\" ry=\"30\" fill=\"url(#petal1)\" opacity=\"0.9\" transform=\"rotate(288 0 0)\"/><circle cx=\"0\" cy=\"0\" r=\"11\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"7\" fill=\"#fbbf24\"/></g><g transform=\"translate(230,235)\"><ellipse cx=\"0\" cy=\"-28\" rx=\"15\" ry=\"28\" fill=\"url(#petal3)\" opacity=\"0.9\"/><ellipse cx=\"26\" cy=\"-8\" rx=\"15\" ry=\"28\" fill=\"url(#petal2)\" opacity=\"0.85\" transform=\"rotate(72 0 0)\"/><ellipse cx=\"16\" cy=\"22\" rx=\"15\" ry=\"28\" fill=\"url(#petal1)\" opacity=\"0.8\" transform=\"rotate(144 0 0)\"/><ellipse cx=\"-16\" cy=\"22\" rx=\"15\" ry=\"28\" fill=\"url(#petal3)\" opacity=\"0.85\" transform=\"rotate(216 0 0)\"/><ellipse cx=\"-26\" cy=\"-8\" rx=\"15\" ry=\"28\" fill=\"url(#petal2)\" opacity=\"0.9\" transform=\"rotate(288 0 0)\"/><circle cx=\"0\" cy=\"0\" r=\"10\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"6\" fill=\"#fbbf24\"/></g><g transform=\"translate(170,135)\"><ellipse cx=\"0\" cy=\"-18\" rx=\"11\" ry=\"18\" fill=\"url(#petal1)\" opacity=\"0.8\"/><ellipse cx=\"17\" cy=\"-5\" rx=\"11\" ry=\"18\" fill=\"url(#petal3)\" opacity=\"0.75\" transform=\"rotate(72 0 0)\"/><ellipse cx=\"10\" cy=\"14\" rx=\"11\" ry=\"18\" fill=\"url(#petal2)\" opacity=\"0.7\" transform=\"rotate(144 0 0)\"/><ellipse cx=\"-10\" cy=\"14\" rx=\"11\" ry=\"18\" fill=\"url(#petal1)\" opacity=\"0.75\" transform=\"rotate(216 0 0)\"/><ellipse cx=\"-17\" cy=\"-5\" rx=\"11\" ry=\"18\" fill=\"url(#petal3)\" opacity=\"0.8\" transform=\"rotate(288 0 0)\"/><circle cx=\"0\" cy=\"0\" r=\"7\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"4\" fill=\"#fbbf24\"/></g><circle cx=\"140\" cy=\"310\" r=\"4\" fill=\"#93c5fd\" opacity=\"0.6\"/><circle cx=\"200\" cy=\"290\" r=\"3\" fill=\"#60a5fa\" opacity=\"0.5\"/><circle cx=\"240\" cy=\"310\" r=\"4\" fill=\"#bfdbfe\" opacity=\"0.5\"/><circle cx=\"100\" cy=\"320\" r=\"3\" fill=\"#60a5fa\" opacity=\"0.4\"/></svg></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "af10004",
+        "elType": "column",
+        "settings": {
+          "_column_size": 55,
+          "content_position": "center",
+          "padding": {
+            "unit": "px",
+            "top": "20",
+            "right": "0",
+            "bottom": "20",
+            "left": "30",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "af10005",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><div style=\"display:flex;align-items:flex-start;gap:14px;margin-bottom:36px;\"><div style=\"width:10px;height:10px;min-width:10px;background:#2563eb;border-radius:50%;margin-top:7px;\"></div><p style=\"font-size:14px;color:#475569;line-height:1.75;margin:0;\">It covers the costs for <strong style=\"color:#0f172a;\">transfer, coordination,</strong> and management in the event of death due to a covered illness or accident occurring outside your country of residence.</p></div><div style=\"display:flex;align-items:flex-start;gap:14px;margin-bottom:36px;\"><div style=\"width:10px;height:10px;min-width:10px;background:#2563eb;border-radius:50%;margin-top:7px;\"></div><p style=\"font-size:14px;color:#475569;line-height:1.75;margin:0;\">This benefit is reimbursed upon submission of <strong style=\"color:#0f172a;\">required documentation.</strong></p></div><div style=\"display:flex;align-items:flex-start;gap:14px;\"><div style=\"width:10px;height:10px;min-width:10px;background:#2563eb;border-radius:50%;margin-top:7px;\"></div><p style=\"font-size:14px;color:#475569;line-height:1.75;margin:0;\">Service requires <strong style=\"color:#0f172a;\">precertification.</strong> Get in touch with <a href=\"mailto:greens@bestdoctorsinsurance.com\" style=\"color:#2563eb;text-decoration:underline;\">greens@bestdoctorsinsurance.com</a></p></div></div>"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ag10001",
+    "elType": "section",
+    "settings": {
+      "background_background": "classic",
+      "background_color": "#0a1631",
+      "padding": {
+        "unit": "px",
+        "top": "50",
         "right": "60",
         "bottom": "40",
         "left": "60",
@@ -163,18 +290,76 @@
     },
     "elements": [
       {
-        "id": "c3d4e60",
+        "id": "ag10002",
         "elType": "column",
-        "settings": {
-          "_column_size": 100
-        },
+        "settings": { "_column_size": 24 },
         "elements": [
           {
-            "id": "c3d4e61",
+            "id": "ag10003",
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "<div style=\"display:flex;align-items:center;gap:24px;font-family:'Inter',sans-serif;\"><div style=\"width:72px;height:72px;background:linear-gradient(135deg,#bfdbfe,#a5f3fc);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:36px;flex-shrink:0;\">&#128203;</div><div style=\"font-size:20px;font-weight:600;color:#0f172a;line-height:1.4;\">What does the policy cover<br><span style=\"font-weight:400;\">for repatriation of mortal remains?</span></div></div>"
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:14px;\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 40 40\" fill=\"none\"><rect width=\"40\" height=\"40\" rx=\"6\" fill=\"#1e3a8a\"/><rect x=\"8\" y=\"12\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"22\" y=\"12\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"8\" y=\"22\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/><rect x=\"22\" y=\"22\" width=\"10\" height=\"6\" rx=\"1\" fill=\"#60a5fa\"/></svg><span style=\"color:#fff;font-size:13px;font-weight:700;line-height:1.2;\"><em style=\"font-style:italic;\">Best Doctors</em><br><small style=\"font-size:9px;font-weight:600;letter-spacing:1.5px;color:#94a3b8;\">INSURANCE</small></span></div><p style=\"font-size:12px;line-height:1.6;color:#64748b;margin:0;\">At Best Doctors Insurance, we are proud to help our members enjoy better and healthier lives.</p></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ag10004",
+        "elType": "column",
+        "settings": { "_column_size": 19 },
+        "elements": [
+          {
+            "id": "ag10005",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:13px;font-weight:600;margin:0 0 14px;\">Plans</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Individual plans</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Corporate plans</a></li></ul></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ag10006",
+        "elType": "column",
+        "settings": { "_column_size": 19 },
+        "elements": [
+          {
+            "id": "ag10007",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:13px;font-weight:600;margin:0 0 14px;\">Company</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">About us</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Why Best Doctors Insurance</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Careers</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Blog</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Provider network</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Become an agent</a></li></ul></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ag10008",
+        "elType": "column",
+        "settings": { "_column_size": 19 },
+        "elements": [
+          {
+            "id": "ag10009",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:13px;font-weight:600;margin:0 0 14px;\">Support</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Let's connect</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">FAQs</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">First Aid Kit</a></li></ul></div>"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ag10010",
+        "elType": "column",
+        "settings": { "_column_size": 19 },
+        "elements": [
+          {
+            "id": "ag10011",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:13px;font-weight:600;margin:0 0 14px;\">Legal</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Privacy Policy</a></li><li style=\"margin-bottom:8px;\"><a href=\"#\" style=\"color:#64748b;font-size:12px;text-decoration:none;\">Terms and Conditions</a></li></ul></div>"
             }
           }
         ]
@@ -182,181 +367,11 @@
     ]
   },
   {
-    "id": "d4e5f60",
+    "id": "ah10001",
     "elType": "section",
     "settings": {
       "background_background": "classic",
-      "background_color": "#ffffff",
-      "padding": {
-        "unit": "px",
-        "top": "60",
-        "right": "60",
-        "bottom": "80",
-        "left": "60",
-        "isLinked": false
-      },
-      "content_width": {
-        "unit": "px",
-        "size": 1200
-      },
-      "layout": "boxed"
-    },
-    "elements": [
-      {
-        "id": "d4e5f61",
-        "elType": "column",
-        "settings": {
-          "_column_size": 50,
-          "align": "center"
-        },
-        "elements": [
-          {
-            "id": "d4e5f62",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"width:360px;height:420px;margin:0 auto;\"><svg viewBox=\"0 0 360 420\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M180 420V200\" stroke=\"#059669\" stroke-width=\"3\"/><path d=\"M120 420V240\" stroke=\"#059669\" stroke-width=\"2.5\"/><path d=\"M240 420V260\" stroke=\"#059669\" stroke-width=\"2.5\"/><path d=\"M90 420V300\" stroke=\"#059669\" stroke-width=\"2\"/><path d=\"M270 420V280\" stroke=\"#059669\" stroke-width=\"2\"/><ellipse cx=\"155\" cy=\"340\" rx=\"25\" ry=\"8\" transform=\"rotate(-30 155 340)\" fill=\"#10b981\" opacity=\"0.7\"/><ellipse cx=\"205\" cy=\"320\" rx=\"25\" ry=\"8\" transform=\"rotate(25 205 320)\" fill=\"#10b981\" opacity=\"0.7\"/><ellipse cx=\"100\" cy=\"370\" rx=\"20\" ry=\"6\" transform=\"rotate(-20 100 370)\" fill=\"#10b981\" opacity=\"0.6\"/><ellipse cx=\"250\" cy=\"350\" rx=\"22\" ry=\"7\" transform=\"rotate(15 250 350)\" fill=\"#10b981\" opacity=\"0.6\"/><g transform=\"translate(180,180)\"><ellipse cx=\"0\" cy=\"-30\" rx=\"18\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.9\"/><ellipse cx=\"28\" cy=\"-10\" rx=\"18\" ry=\"30\" fill=\"#2563eb\" opacity=\"0.8\" transform=\"rotate(72)\"/><ellipse cx=\"17\" cy=\"24\" rx=\"18\" ry=\"30\" fill=\"#60a5fa\" opacity=\"0.85\" transform=\"rotate(144)\"/><ellipse cx=\"-17\" cy=\"24\" rx=\"18\" ry=\"30\" fill=\"#3b82f6\" opacity=\"0.8\" transform=\"rotate(216)\"/><ellipse cx=\"-28\" cy=\"-10\" rx=\"18\" ry=\"30\" fill=\"#2563eb\" opacity=\"0.9\" transform=\"rotate(288)\"/><circle cx=\"0\" cy=\"0\" r=\"12\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"8\" fill=\"#fbbf24\"/></g><g transform=\"translate(110,220)\"><ellipse cx=\"0\" cy=\"-22\" rx=\"14\" ry=\"24\" fill=\"#60a5fa\" opacity=\"0.85\"/><ellipse cx=\"21\" cy=\"-7\" rx=\"14\" ry=\"24\" fill=\"#3b82f6\" opacity=\"0.8\" transform=\"rotate(72)\"/><ellipse cx=\"13\" cy=\"18\" rx=\"14\" ry=\"24\" fill=\"#93c5fd\" opacity=\"0.8\" transform=\"rotate(144)\"/><ellipse cx=\"-13\" cy=\"18\" rx=\"14\" ry=\"24\" fill=\"#60a5fa\" opacity=\"0.85\" transform=\"rotate(216)\"/><ellipse cx=\"-21\" cy=\"-7\" rx=\"14\" ry=\"24\" fill=\"#3b82f6\" opacity=\"0.8\" transform=\"rotate(288)\"/><circle cx=\"0\" cy=\"0\" r=\"10\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"6\" fill=\"#fbbf24\"/></g><g transform=\"translate(250,240)\"><ellipse cx=\"0\" cy=\"-20\" rx=\"13\" ry=\"22\" fill=\"#38bdf8\" opacity=\"0.85\"/><ellipse cx=\"19\" cy=\"-6\" rx=\"13\" ry=\"22\" fill=\"#0ea5e9\" opacity=\"0.8\" transform=\"rotate(72)\"/><ellipse cx=\"12\" cy=\"16\" rx=\"13\" ry=\"22\" fill=\"#7dd3fc\" opacity=\"0.8\" transform=\"rotate(144)\"/><ellipse cx=\"-12\" cy=\"16\" rx=\"13\" ry=\"22\" fill=\"#38bdf8\" opacity=\"0.85\" transform=\"rotate(216)\"/><ellipse cx=\"-19\" cy=\"-6\" rx=\"13\" ry=\"22\" fill=\"#0ea5e9\" opacity=\"0.8\" transform=\"rotate(288)\"/><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"#0369a1\"/><circle cx=\"0\" cy=\"0\" r=\"5\" fill=\"#fbbf24\"/></g><g transform=\"translate(160,140)\"><ellipse cx=\"0\" cy=\"-14\" rx=\"9\" ry=\"16\" fill=\"#93c5fd\" opacity=\"0.8\"/><ellipse cx=\"13\" cy=\"-4\" rx=\"9\" ry=\"16\" fill=\"#60a5fa\" opacity=\"0.7\" transform=\"rotate(72)\"/><ellipse cx=\"8\" cy=\"11\" rx=\"9\" ry=\"16\" fill=\"#bfdbfe\" opacity=\"0.8\" transform=\"rotate(144)\"/><ellipse cx=\"-8\" cy=\"11\" rx=\"9\" ry=\"16\" fill=\"#93c5fd\" opacity=\"0.7\" transform=\"rotate(216)\"/><ellipse cx=\"-13\" cy=\"-4\" rx=\"9\" ry=\"16\" fill=\"#60a5fa\" opacity=\"0.8\" transform=\"rotate(288)\"/><circle cx=\"0\" cy=\"0\" r=\"6\" fill=\"#1e40af\"/><circle cx=\"0\" cy=\"0\" r=\"4\" fill=\"#fbbf24\"/></g><circle cx=\"140\" cy=\"300\" r=\"4\" fill=\"#38bdf8\" opacity=\"0.6\"/><circle cx=\"200\" cy=\"350\" r=\"3\" fill=\"#60a5fa\" opacity=\"0.5\"/><circle cx=\"230\" cy=\"310\" r=\"5\" fill=\"#38bdf8\" opacity=\"0.4\"/><circle cx=\"160\" cy=\"380\" r=\"3\" fill=\"#93c5fd\" opacity=\"0.5\"/><circle cx=\"280\" cy=\"340\" r=\"4\" fill=\"#60a5fa\" opacity=\"0.4\"/><circle cx=\"100\" cy=\"350\" r=\"3\" fill=\"#38bdf8\" opacity=\"0.5\"/><circle cx=\"190\" cy=\"290\" r=\"2\" fill=\"#bfdbfe\" opacity=\"0.6\"/></svg></div>"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d4e5f63",
-        "elType": "column",
-        "settings": {
-          "_column_size": 50,
-          "padding": {
-            "unit": "px",
-            "top": "20",
-            "right": "0",
-            "bottom": "0",
-            "left": "0",
-            "isLinked": false
-          }
-        },
-        "elements": [
-          {
-            "id": "d4e5f64",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><div style=\"display:flex;align-items:flex-start;gap:16px;margin-bottom:32px;\"><div style=\"width:12px;height:12px;background:#2563eb;border-radius:50%;flex-shrink:0;margin-top:6px;\"></div><p style=\"font-size:15px;color:#475569;line-height:1.7;\">It covers the costs for <strong style=\"color:#1a1a2e;font-weight:600;\">transfer, coordination,</strong> and management in the event of death due to a covered illness or accident occurring outside your country of residence.</p></div><div style=\"display:flex;align-items:flex-start;gap:16px;margin-bottom:32px;\"><div style=\"width:12px;height:12px;background:#2563eb;border-radius:50%;flex-shrink:0;margin-top:6px;\"></div><p style=\"font-size:15px;color:#475569;line-height:1.7;\">This benefit is reimbursed upon submission of <strong style=\"color:#1a1a2e;font-weight:600;\">required documentation.</strong></p></div><div style=\"display:flex;align-items:flex-start;gap:16px;margin-bottom:32px;\"><div style=\"width:12px;height:12px;background:#2563eb;border-radius:50%;flex-shrink:0;margin-top:6px;\"></div><p style=\"font-size:15px;color:#475569;line-height:1.7;\">Service requires <strong style=\"color:#1a1a2e;font-weight:600;\">precertification.</strong> Get in touch with <a href=\"mailto:greens@bestdoctorsinsurance.com\" style=\"color:#2563eb;text-decoration:underline;\">greens@bestdoctorsinsurance.com</a></p></div></div>"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "e5f6070",
-    "elType": "section",
-    "settings": {
-      "background_background": "classic",
-      "background_color": "#0b1a3e",
-      "padding": {
-        "unit": "px",
-        "top": "60",
-        "right": "60",
-        "bottom": "0",
-        "left": "60",
-        "isLinked": false
-      },
-      "layout": "full_width"
-    },
-    "elements": [
-      {
-        "id": "e5f6071",
-        "elType": "column",
-        "settings": {
-          "_column_size": 20
-        },
-        "elements": [
-          {
-            "id": "e5f6072",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><div style=\"display:flex;align-items:center;gap:10px;margin-bottom:16px;\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"40\" height=\"40\" rx=\"8\" fill=\"#1e40af\"/><path d=\"M12 14h6v3h-6zM22 14h6v3h-6zM12 20h6v3h-6zM22 20h6v3h-6zM17 26h6v3h-6z\" fill=\"#60a5fa\"/><circle cx=\"20\" cy=\"12\" r=\"4\" fill=\"#38bdf8\"/></svg><span style=\"color:#fff;font-size:15px;font-weight:700;\">Best Doctors<br>Insurance</span></div><p style=\"font-size:13px;line-height:1.6;color:#94a3b8;\">At Best Doctors Insurance, we are proud to help our members enjoy better and healthier lives.</p></div>"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e5f6073",
-        "elType": "column",
-        "settings": {
-          "_column_size": 20
-        },
-        "elements": [
-          {
-            "id": "e5f6074",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:14px;font-weight:600;margin-bottom:16px;\">Plans</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Individual plans</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Corporate plans</a></li></ul></div>"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e5f6075",
-        "elType": "column",
-        "settings": {
-          "_column_size": 20
-        },
-        "elements": [
-          {
-            "id": "e5f6076",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:14px;font-weight:600;margin-bottom:16px;\">Company</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">About us</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Why Best Doctors Insurance</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Careers</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Blog</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Provider network</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Become an agent</a></li></ul></div>"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e5f6077",
-        "elType": "column",
-        "settings": {
-          "_column_size": 20
-        },
-        "elements": [
-          {
-            "id": "e5f6078",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:14px;font-weight:600;margin-bottom:16px;\">Support</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Let's connect</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">FAQs</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">First Aid Kit</a></li></ul></div>"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e5f6079",
-        "elType": "column",
-        "settings": {
-          "_column_size": 20
-        },
-        "elements": [
-          {
-            "id": "e5f607a",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"font-family:'Inter',sans-serif;\"><h4 style=\"color:#fff;font-size:14px;font-weight:600;margin-bottom:16px;\">Legal</h4><ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Privacy Policy</a></li><li style=\"margin-bottom:10px;\"><a href=\"#\" style=\"color:#94a3b8;font-size:13px;text-decoration:none;\">Terms and Conditions</a></li></ul></div>"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "f6070a1",
-    "elType": "section",
-    "settings": {
-      "background_background": "classic",
-      "background_color": "#0b1a3e",
+      "background_color": "#0a1631",
       "padding": {
         "unit": "px",
         "top": "20",
@@ -374,77 +389,36 @@
         "left": "0",
         "isLinked": false
       },
-      "border_color": "#1e3a5f",
+      "border_color": "#1e293b",
       "layout": "full_width"
     },
     "elements": [
       {
-        "id": "f6070a2",
+        "id": "ah10002",
         "elType": "column",
-        "settings": {
-          "_column_size": 50
-        },
+        "settings": { "_column_size": 50 },
         "elements": [
           {
-            "id": "f6070a3",
+            "id": "ah10003",
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "<p style=\"font-size:12px;color:#64748b;font-family:'Inter',sans-serif;\">&copy; 2026 Best Doctors Insurance. All rights reserved.</p>"
+              "html": "<p style=\"font-size:11px;color:#475569;font-family:'Inter',sans-serif;margin:0;\">&copy; 2025 Best Doctors Insurance. All rights reserved.</p>"
             }
           }
         ]
       },
       {
-        "id": "f6070a4",
+        "id": "ah10004",
         "elType": "column",
-        "settings": {
-          "_column_size": 50,
-          "align": "right"
-        },
+        "settings": { "_column_size": 50 },
         "elements": [
           {
-            "id": "f6070a5",
+            "id": "ah10005",
             "elType": "widget",
             "widgetType": "html",
             "settings": {
-              "html": "<div style=\"display:flex;gap:16px;justify-content:flex-end;\"><a href=\"#\" style=\"color:#94a3b8;transition:color 0.3s;\" aria-label=\"Instagram\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg></a><a href=\"#\" style=\"color:#94a3b8;transition:color 0.3s;\" aria-label=\"LinkedIn\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z\"/></svg></a><a href=\"#\" style=\"color:#94a3b8;transition:color 0.3s;\" aria-label=\"Facebook\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z\"/></svg></a><a href=\"#\" style=\"color:#94a3b8;transition:color 0.3s;\" aria-label=\"YouTube\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a></div>"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "g7080b1",
-    "elType": "section",
-    "settings": {
-      "background_background": "classic",
-      "background_color": "#0b1a3e",
-      "padding": {
-        "unit": "px",
-        "top": "0",
-        "right": "60",
-        "bottom": "0",
-        "left": "60",
-        "isLinked": false
-      },
-      "layout": "full_width"
-    },
-    "elements": [
-      {
-        "id": "g7080b2",
-        "elType": "column",
-        "settings": {
-          "_column_size": 100
-        },
-        "elements": [
-          {
-            "id": "g7080b3",
-            "elType": "widget",
-            "widgetType": "html",
-            "settings": {
-              "html": "<div style=\"display:flex;justify-content:center;gap:20px;padding:16px 0;font-family:'Inter',sans-serif;\"><a href=\"#\" style=\"color:#94a3b8;font-size:12px;text-decoration:none;\">Privacy Policy</a><span style=\"color:#64748b;\">|</span><a href=\"#\" style=\"color:#94a3b8;font-size:12px;text-decoration:none;\">Terms of Use</a><span style=\"color:#64748b;\">|</span><a href=\"#\" style=\"color:#94a3b8;font-size:12px;text-decoration:none;\">Cookie Preferences</a></div>"
+              "html": "<div style=\"display:flex;gap:16px;justify-content:flex-end;align-items:center;\"><a href=\"#\" style=\"color:#64748b;\" aria-label=\"Instagram\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z\"/></svg></a><a href=\"#\" style=\"color:#64748b;\" aria-label=\"LinkedIn\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z\"/></svg></a><a href=\"#\" style=\"color:#64748b;\" aria-label=\"Facebook\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z\"/></svg></a><a href=\"#\" style=\"color:#64748b;\" aria-label=\"YouTube\"><svg width=\"18\" height=\"18\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a></div>"
             }
           }
         ]
