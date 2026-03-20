@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+
+  wordpress:
+    image: wordpress:latest
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_TABLE_PREFIX: wp_
+    volumes:
+      - wordpress_data:/var/www/html
+      - ./themes:/var/www/html/wp-content/themes/custom-theme
+      - ./plugins:/var/www/html/wp-content/plugins
+    depends_on:
+      db:
+        condition: service_healthy
+
+  wpcli:
+    image: wordpress:cli
+    restart: "no"
+    user: "33:33"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress_data:/var/www/html
+      - ./themes:/var/www/html/wp-content/themes/custom-theme
+      - ./plugins:/var/www/html/wp-content/plugins
+      - ./scripts:/scripts
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["sh", "-c", "sleep 15 && /scripts/setup.sh"]
+
+volumes:
+  db_data:
+  wordpress_data:

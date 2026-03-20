@@ -1,0 +1,26 @@
+#!/bin/bash
+# Script para ayudar a convertir diseño Figma a Elementor
+# Uso: ./scripts/import-figma.sh
+
+echo "=== Herramienta de importación Figma → Elementor ==="
+echo ""
+echo "Para convertir tu diseño de Figma a Elementor tienes estas opciones:"
+echo ""
+echo "OPCIÓN 1 - Manual (Recomendada para aprender):"
+echo "  1. Exporta los assets de Figma (imágenes, iconos) como PNG/SVG"
+echo "  2. Ve a http://localhost:8080/wp-admin"
+echo "  3. Entra a Elementor y usa el constructor visual"
+echo "  4. Sube tus assets y construye la página"
+echo ""
+echo "OPCIÓN 2 - Figma2HTML + Elementor:"
+echo "  1. En Figma, usa el plugin 'HTML to WordPress' o 'Anima'"
+echo "  2. Exporta el HTML generado"
+echo "  3. Copia el HTML en un widget HTML de Elementor"
+echo ""
+echo "OPCIÓN 3 - AI Assistant (lo que estamos haciendo):"
+echo "  1. Comparte el diseño de Figma o capturas de pantalla"
+echo "  2. Claude generará el código CSS/HTML equivalente"
+echo "  3. Se importa como template de Elementor (JSON)"
+echo ""
+echo "Para usar la Opción 3, ejecuta:"
+echo "  docker compose exec wpcli wp elementor --help"

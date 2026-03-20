@@ -1,0 +1,4 @@
+.env
+plugins/
+themes/node_modules/
+*.log
