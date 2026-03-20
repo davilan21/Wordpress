@@ -49,6 +49,14 @@ if [ ! -z "$PAGE_ID" ]; then
   wp option update show_on_front page --path=/var/www/html --allow-root || true
 fi
 
+# Activar tema custom
+echo "=== Activando tema custom ==="
+wp theme activate custom-theme --path=/var/www/html --allow-root || true
+
+# Importar template de Elementor en la página de inicio
+echo "=== Importando template de Elementor ==="
+wp eval-file /scripts/import-elementor-template.php --path=/var/www/html --allow-root || true
+
 echo ""
 echo "=========================================="
 echo "  WordPress configurado exitosamente!"

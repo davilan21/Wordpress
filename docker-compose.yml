@@ -49,6 +49,7 @@ services:
       - ./themes:/var/www/html/wp-content/themes/custom-theme
       - ./plugins:/var/www/html/wp-content/plugins
       - ./scripts:/scripts
+      - ./templates:/templates
     depends_on:
       db:
         condition: service_healthy
