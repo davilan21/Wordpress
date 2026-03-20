@@ -18,32 +18,53 @@ done
 
 echo "=== WordPress instalado ==="
 
-# Activar el tema custom (Best Doctors Insurance)
-echo "=== Activando tema custom ==="
-wp theme activate custom-theme --path=/var/www/html --allow-root || true
+# Instalar y activar Elementor
+echo "=== Instalando Elementor ==="
+wp plugin install elementor --activate --path=/var/www/html --allow-root 2>/dev/null || true
+wp plugin is-installed elementor --path=/var/www/html --allow-root && echo "Elementor instalado OK"
+
+# Instalar y activar Hello Elementor (tema ligero compatible con Elementor Canvas)
+echo "=== Instalando Hello Elementor theme ==="
+wp theme install hello-elementor --activate --path=/var/www/html --allow-root 2>/dev/null || true
+echo "Tema activo: $(wp theme list --status=active --field=name --path=/var/www/html --allow-root 2>/dev/null)"
 
 # Configuración básica
 wp option update blogname "Best Doctors Insurance" --path=/var/www/html --allow-root || true
-wp option update blogdescription "First Aid Kit - International Health Insurance" --path=/var/www/html --allow-root || true
-wp option update timezone_string "America/Bogota" --path=/var/www/html --allow-root || true
+wp option update blogdescription "First Aid Kit" --path=/var/www/html --allow-root || true
 
-# Crear página de inicio si no existe
-PAGE_ID=$(wp post list --post_type=page --name="inicio" --field=ID --path=/var/www/html --allow-root 2>/dev/null | head -1)
+# Desactivar experimentos de Elementor que pueden interferir
+wp option update elementor_experiment-e_optimized_css_loading inactive --path=/var/www/html --allow-root 2>/dev/null || true
+wp option update elementor_experiment-e_font_icon_svg inactive --path=/var/www/html --allow-root 2>/dev/null || true
 
-if [ -z "$PAGE_ID" ]; then
-  PAGE_ID=$(wp post create \
-    --post_type=page \
-    --post_title="Inicio" \
-    --post_status=publish \
-    --path=/var/www/html \
-    --allow-root --porcelain 2>/dev/null)
-  echo "Página creada con ID: $PAGE_ID"
+# Verificar que el archivo JSON existe
+echo "=== Verificando template JSON ==="
+if [ -f "/templates/first-aid-kit.json" ]; then
+  echo "Template encontrado: /templates/first-aid-kit.json"
+  echo "Tamaño: $(wc -c < /templates/first-aid-kit.json) bytes"
+else
+  echo "ERROR: /templates/first-aid-kit.json no encontrado!"
+  ls -la /templates/ 2>/dev/null || echo "Directorio /templates/ no existe"
 fi
 
-if [ ! -z "$PAGE_ID" ]; then
-  wp option update page_on_front $PAGE_ID --path=/var/www/html --allow-root || true
-  wp option update show_on_front page --path=/var/www/html --allow-root || true
-  echo "Página de inicio configurada: $PAGE_ID"
+# Importar template de Elementor
+echo "=== Importando template de Elementor ==="
+wp eval-file /scripts/import-elementor-template.php --path=/var/www/html --allow-root 2>&1 || {
+  echo "Error al importar template, reintentando..."
+  sleep 3
+  wp eval-file /scripts/import-elementor-template.php --path=/var/www/html --allow-root 2>&1 || echo "FALLO la importacion"
+}
+
+# Verificar resultado
+echo "=== Verificación final ==="
+FRONT_PAGE=$(wp option get page_on_front --path=/var/www/html --allow-root 2>/dev/null)
+echo "Front page ID: $FRONT_PAGE"
+if [ ! -z "$FRONT_PAGE" ] && [ "$FRONT_PAGE" != "0" ]; then
+  TEMPLATE=$(wp post meta get $FRONT_PAGE _wp_page_template --path=/var/www/html --allow-root 2>/dev/null)
+  EDIT_MODE=$(wp post meta get $FRONT_PAGE _elementor_edit_mode --path=/var/www/html --allow-root 2>/dev/null)
+  DATA_LEN=$(wp post meta get $FRONT_PAGE _elementor_data --path=/var/www/html --allow-root 2>/dev/null | wc -c)
+  echo "Page template: $TEMPLATE"
+  echo "Elementor edit mode: $EDIT_MODE"
+  echo "Elementor data length: $DATA_LEN bytes"
 fi
 
 echo ""
